@@ -1,0 +1,30 @@
+.main {
+
+  form {
+    border: 1px solid $white;
+    padding: 1rem;
+
+    input {
+      display: block;
+      width: 100%;
+      margin: .25rem 0;
+    }
+
+    .big-input {
+      height: 10rem;
+    }
+
+    .submit {
+      color: $white;
+      border: 1px solid $white;
+      background-color: $transparent;
+      padding: .25rem;
+      margin-top: 1rem;
+    }
+
+    .submit:hover {
+      background-color: $red;
+    }
+  }
+
+}
